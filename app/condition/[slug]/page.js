@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { db } from "@/lib/firebase-admin";
+import { db } from "../../../lib/firebase-admin";
 
 export const dynamic = "force-dynamic";
 
